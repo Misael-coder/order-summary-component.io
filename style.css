@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(225, 100%, 94%);
+}
+.container {
+  border-radius: 20px;
+  width: 340px;
+  height: 540px;
+  position: relative;
+  background-color: white;
+}
+.banner {
+  width: 340px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.Order-Summary {
+  text-align: center;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.text {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 15px;
+  font-weight: 600;
+  color: hsl(224, 23%, 55%)
+}
+.anual-plan {
+ background-color:hsl(225, 100%, 98%);
+  border-radius: 10px;
+  width: 300px;
+  height: 70px;
+  display: inline-flex;
+  margin: 0px 25px;
+}
+.logo-music {
+  height: 40px;
+  margin-top: 1rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.Annual-Plan {
+  margin: 25px 0px;
+  margin-right: 5px;
+  font-weight: 900;
+  font-size: 13px;
+  color: hsl(223, 47%, 23%);
+}
+.year {
+  margin: 25px 0px;
+  margin-right: 20px;
+  font-weight:500;
+  color: hsl(224, 23%, 55%);
+}
+.Change {
+  margin: 25px 0px;
+  font-size: 13px;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+.Proceed-to-Payment {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 25px;
+  margin-top: 25px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+cursor: pointer;
+}
+.Cancel-order {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 25px;
+  margin-top: 25px;
+  text-decoration: none;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+}
